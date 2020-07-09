@@ -237,3 +237,54 @@ $quinary-color: rgb(154, 218, 27);
   #fade img.transparent {
       opacity: 0;
   }
+
+  .post {
+    background-color:#e646b6;
+    border-radius: 1%;
+    display:flex;
+    max-height: 10%;
+  }
+  .post>img {
+    width:65%;
+    height:20%;
+  
+    border-radius: 1%;
+    display:flex;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    flex-basis: 50%; 
+    margin-left: 3%;
+  }
+  
+  #listings {
+    background-color: $primary-color;
+    border-style: double;
+    border-color: #9933ff;
+    width: 20%;
+    padding: 1%;  
+    margin-left: 4%;
+  
+  }
+  #listings li {
+  text-align:justify;
+  flex-direction:row;
+  flex-basis: 30%;
+  }
+  
+  
+  @media screen and (max-width: 600px){
+    #listings,.post, .post>img {
+    flex-wrap:wrap;
+    flex-basis: 50%;
+    padding:5%;
+    margin-left: 12%;
+    margin-right: 7%;
+  }
+  .post>img {
+    margin-left: 5%;
+  }
+  }
+  #breed {
+    margin-left: 3%;  
+  }
+  
