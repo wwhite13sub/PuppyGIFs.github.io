@@ -154,3 +154,39 @@ $quinary-color: rgb(154, 218, 27);
     background-color:$quinary-color;
     border-radius: 10px;
   }
+
+  .flex-container {
+    display:flex;
+    border-radius: 8px;  
+  }
+  .sec-one {
+  
+    background-color: #e646b6;
+    margin-left: 9%;
+    margin-right: 9%;
+    border-radius: 10px;
+   
+  }
+  
+  .sec-two {
+    width: 15%;
+    height: 25%;
+    border-radius: 8px;
+    border-style: double;
+    border-color: $secondary-color;
+    margin-left: 12%;
+  #smallheading {
+    display: inline-flex;
+     
+  }
+  }
+  
+  
+  .lead {
+      margin-left: 12%;
+      width: 60%;
+      padding: 2%;
+  }
+  #more {
+    margin-left: 7%;
+  }
