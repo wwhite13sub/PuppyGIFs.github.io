@@ -136,3 +136,21 @@ $quinary-color: rgb(154, 218, 27);
     padding: .3%;
   }
   }
+
+  #img {
+    display: inline-block;
+    vertical-align: middle;
+    justify-content: space-between;
+    border-radius: 20px;
+    border-color: $quaternary-color;
+    border-style: solid;
+    margin-left: 7%;
+    height: 200px;
+    width: 200px;
+    padding: 0.5%;
+    
+  }
+  .space {
+    background-color:$quinary-color;
+    border-radius: 10px;
+  }
