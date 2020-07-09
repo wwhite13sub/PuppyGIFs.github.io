@@ -104,3 +104,35 @@ $quinary-color: rgb(154, 218, 27);
   #searchbox {
     width:10%;
   }
+
+  .box {
+    display: inline-flex;
+    margin-left: 5%;
+  }
+  div>h1 {
+    margin-left:30%;
+  }
+  
+  .navbar {
+    display: inline-flex;
+    overflow: hidden;
+    margin-left: 3%;
+    margin-right: 3%;
+   
+  }
+  .navbar>h1 {
+    margin-left: 7%;
+    color: yellowgreen;
+  }
+  
+  .navbar>a {
+    color:$tertiary-color;
+    display: inline-flex;
+    margin-left:7%;
+    
+    margin-top: 3%;
+    font-size:large;
+  .navbar>img {
+    padding: .3%;
+  }
+  }
