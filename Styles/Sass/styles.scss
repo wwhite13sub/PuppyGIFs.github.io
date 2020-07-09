@@ -190,3 +190,38 @@ $quinary-color: rgb(154, 218, 27);
   #more {
     margin-left: 7%;
   }
+
+  @keyframes fadFadeInOut {
+    0% {
+    opacity:1;
+  }
+  45% {
+  opacity:1;
+  }
+  55% {
+  opacity:0;
+  }
+  100% {
+  opacity:0;
+  }
+  }
+  @keyframes fade {
+    from {opacity: .8} 
+    to {opacity: 1}
+  }
+
+
+#fade {
+    position:relative;
+    height:20%;
+    width:65%;
+    margin-left:23%;
+  }
+#fade img.bottom {
+    position:absolute;
+    left:0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
