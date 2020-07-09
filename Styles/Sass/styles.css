@@ -1,1 +1,38 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+@media screen and (min-width: 600px) {
+  body {
+    background-color: #343432;
+    font-family: 'Chewy', cursive;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: teal;
+    font-family: 'Chewy', cursive;
+    color: white;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .navbar a.icon {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child) {
+    display: none;
+  }
+  .navbar a.icon {
+    float: right;
+    display: block;
+    margin-left: 35%;
+  }
+}
+
+.icon {
+  color: white;
+  margin-left: 35%;
+}
+/*# sourceMappingURL=styles.css.map */
