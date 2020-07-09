@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIFs For Puppies</title>
+    <link rel="stylesheet" href="styles/sass/styles.css" text="css/styles">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chewy&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+
+        <div class="navbar" id="menu" style="background-color: #54457f;">
+            <img src="Img/puppy header.jpg" alt="puppy" width="10%" height="8%" />
+            <h1 class="navtitle">PUPPY GIFS</h1>
+            <a class="active" href="#menu">Home</a>
+            <a href="#results">Search</a>
+            <a href="#more">Why Puppy GIFs</a>
+            <a href="#breed">Popular Breeds</a>
+            <a href="javascript:void(0);" class="icon" onclick="menuToggle()">
+                <i class="fa fa-bars"></i></a>
+        </div>
+    </header>
+    <br>
+    <br>
+
+    <img src="Img/powered.png" class="logo" />
+    <div class="sec-one">
+        <div class="flex-container" id="smallheading">
+            <div class="row">
+                <div class="column">
+                    <img src="Img/pupheader1.webp" alt="pup" class="sec-two">
+                    <img src="Img/hellop.webp" alt="hello pup" class="sec-two">
+                    <img src="Img/pupbwl.gif" alt="puppybowl" class="sec-two">
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <div class="box">
+        <h1 id="results">SEARCH:</h1>
+        <div class="result">
+            <input id="searchBox" class="form-control mr-sm-2" type="text" placeholder="Search GIF">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="getData()">Submit</button>
+        </div>
+    </div>
+    <br>
+
+    <p class="first-sec">Return Results:</p>
+    <div class="return">
+        <div id="imgCount" class="count">
+        </div>
+    </div>
+    <br>
+
+    <div class="space">
+        <div class="container">
+            <p style="color:yellowgreen">.</p>
+            <div class="GIf"></div>
+        </div>
+    </div>
+    <img src="Img/powered.png" class="logo2" />
+
+
+    <div>
+        <h1 id="more">Why Puppy GIFS</h1>
+        <p class="lead">Puppies evoke feelings of happiness and fun. When people look into each other's eys,we
+            bond emotionally and release a hormone called oxytocin. A study found that when dogs and people gaze
+            into each other eyes, the same hormone is released in BOTH the humans and the dogs. Harness that magic to
+            envoke HAPPY FEELINGS by using a fun Puppy GIF from our site!</p>
+        <div>
+            <div id="fade" class="shading">
+                <img class="bottom" src="Img/devin.jpg" alt="unsplashimg" width="65%" height="95%">
+                <img class="top" src="Img/kevinq.jpg" alt="unsplashimg" width="65%" height="20%">
+            </div>
+        </div>
+        <br>
+        <br>
+
+
+        <h1 id="breed">Popular Breeds</h1>
+        <div class="post">
+            <img src="Img/daniel.jpg" alt="playingpuppy" />
+            <div class="container" id="listings">
+                <div class="col-sm-6">
+
+                    <ol>
+                        <li>Labrador Retriever</li>
+                        <li>German Shepherd</li>
+                        <li>Golden Retriever</li>
+                        <li>French Bulldog</li>
+                        <li>Bulldog</li>
+                        <li>Beagles</li>
+                        <li>Poodles</li>
+                        <li>Rottweilers</li>
+                        <li>Pointers</li>
+                        <li>Yorkshire Terriers</li>
+                    </ol>
+                    <p>Per American Kennel Club</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/javascript.js"></script>
+    <script src="js/JQuery.js"></script>
+</body>
+
+</html>
