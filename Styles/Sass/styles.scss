@@ -20,3 +20,21 @@ $quinary-color: rgb(154, 218, 27);
     color: $tertiary-color;
     }
   }
+
+  @media screen and (min-width: 600px) {
+    .navbar a.icon {display:none;}
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .navbar a:not(:first-child) {display: none;}
+    .navbar a.icon {
+      float: right;
+      display: block;
+      margin-left: 35%;
+    }
+  }
+  .icon {
+    color:$tertiary-color;
+    margin-left: 35%;
+  }
