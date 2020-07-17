@@ -5,74 +5,7 @@ $quaternary-color: #9933FF;
 $quinary-color: rgb(154, 218, 27);
 
 
-@media screen and (min-width: 600px){
-    body {
-    background-color: $primary-color;
-    font-family: 'Chewy', cursive;
-    color: $tertiary-color;  
-}
-}
 
-@media screen and (max-width: 600px) {
-    body{
-    background-color: $secondary-color;
-    font-family: 'Chewy', cursive;
-    color: $tertiary-color;
-    }
-  }
-
-  @media screen and (min-width: 600px) {
-    .navbar a.icon {display:none;}
-  }
-  
-  
-  @media screen and (max-width: 600px) {
-    .navbar a:not(:first-child) {display: none;}
-    .navbar a.icon {
-      float: right;
-      display: block;
-      margin-left: 35%;
-    }
-  }
-  .icon {
-    color:$tertiary-color;
-    margin-left: 35%;
-  }
-
-  @media screen and (max-width: 600px) {
-    .navbar.responsive {
-      position:relative;
-      flex-wrap: wrap;
-    }
-    .navbar.responsive .icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .navbar.responsive a {
-      display:block;
-     position: relative;  
-      padding: 0px 8px;
-      font-size: 20px; 
-      flex-basis: 45%; 
-      margin-bottom: 10%; 
-      
-    }  
-    .navbar.responsive h1{
-      margin-top:1%;
-      text-align: right;
-      display:inline-block;
-      color:#e646b6;
-      margin-left: 5%;
-    }
-  }
-  @media screen and (max-width: 600px) {
-    .navbar.responsive .navtitle {
-      flex-wrap: wrap;
-      margin-bottom: 60px;
-    } 
-    
-  }
 
   .logo {
     width: 10%;
@@ -144,7 +77,7 @@ $quinary-color: rgb(154, 218, 27);
     border-radius: 20px;
     border-color: $quaternary-color;
     border-style: solid;
-    margin-left: 7%;
+    margin-left: 10%;
     height: 200px;
     width: 200px;
     padding: 0.5%;
@@ -169,12 +102,12 @@ $quinary-color: rgb(154, 218, 27);
   }
   
   .sec-two {
-    width: 15%;
-    height: 25%;
+    width: 20%;
+    height: 20%;
     border-radius: 8px;
     border-style: double;
     border-color: $secondary-color;
-    margin-left: 12%;
+    margin-left: 8%;
   #smallheading {
     display: inline-flex;
      
@@ -272,18 +205,7 @@ $quinary-color: rgb(154, 218, 27);
   }
   
   
-  @media screen and (max-width: 600px){
-    #listings,.post, .post>img {
-    flex-wrap:wrap;
-    flex-basis: 50%;
-    padding:5%;
-    margin-left: 12%;
-    margin-right: 7%;
-  }
-  .post>img {
-    margin-left: 5%;
-  }
-  }
+  
   #breed {
     margin-left: 3%;  
   }
@@ -301,3 +223,87 @@ $quinary-color: rgb(154, 218, 27);
     margin-left: 20%;
   }
   
+  @media screen and (min-width: 600px){
+    body {
+    background-color: $primary-color;
+    font-family: 'Chewy', cursive;
+    color: $tertiary-color;  
+}
+}
+
+@media screen and (max-width: 600px) {
+    body{
+    background-color: $secondary-color;
+    font-family: 'Chewy', cursive;
+    color: $tertiary-color;
+    }
+  }
+
+  @media screen and (min-width: 600px) {
+    .navbar a.icon {display:none;}
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .navbar a:not(:first-child) {display: none;}
+    .navbar a.icon {
+      float: right;
+      display: block;
+      margin-left: 35%;
+    }
+  }
+  .icon {
+    color:$tertiary-color;
+    margin-left: 35%;
+  }
+
+  @media screen and (max-width: 600px) {
+    .navbar.responsive {
+      position:relative;
+      flex-wrap: wrap;
+    }
+    .navbar.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .navbar.responsive a {
+      display:block;
+     position: relative;  
+      padding: 0px 8px;
+      font-size: 20px; 
+      flex-basis: 45%; 
+      margin-bottom: 10%; 
+      
+    }  
+    .navbar.responsive h1{
+      margin-top:1%;
+      text-align: right;
+      display:inline-block;
+      color:#e646b6;
+      margin-left: 5%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .navbar.responsive .navtitle {
+      flex-wrap: wrap;
+      margin-bottom: 60px;
+    } 
+    
+  }
+
+  @media screen and (max-width: 600px){
+    #listings,.post, .post>img, #img {
+    flex-wrap:wrap;
+    flex-basis: 50%;
+    padding:5%;
+    margin-left: 12%;
+    margin-right: 7%;
+  }
+  .post>img {
+    margin-left: 5%;
+  }
+  #img {
+    margin-left: 15%;
+  }
+  }
