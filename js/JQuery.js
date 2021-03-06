@@ -3,7 +3,7 @@ function getData() {
     var searchParm = document.getElementById("searchBox").value;
     console.log(searchParm);
 
-    var xhr = $.get(`http://api.giphy.com/v1/gifs/search?q=${searchParm}&api_key=GZ85UIUEKT6LXr7u6gS3jQJ93R81u&limit=25`);
+    var xhr = $.get(`http://api.giphy.com/v1/gifs/search?q=${searchParm}&api_key=GZ85UIUEKT6LXr7u6gS3jQJ93R81uA19&limit=25`);
 
         xhr.done(function (response) {
         console.log("success got data", response);
